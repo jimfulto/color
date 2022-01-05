@@ -1,0 +1,21 @@
+<a style="cursor: pointer;" 
+    class="list-group-item clearfix"
+    routerLinkActive="active"
+    [ngStyle]="{'background-color': color.hexValue }">
+    <div class="pull-left">
+        <h4 class="list-group-item-heading">{{ color.name }}</h4>
+        <h5 class="list-group-item-heading">{{ color.hexValue }}</h5>
+        <!-- <h5 class="list-group-item-heading">{{ employee.age }}</h5> -->
+        <!-- <h5><app-star [rating]="employee.rating"></app-star></h5> -->
+    </div>
+    <!-- <span class="pull-right">
+        <img 
+            [src]="employee.imagePath" 
+            alt="{{ employee.name }}" 
+            class="img-responsive" 
+            style="max-height: 80px;">
+    </span> -->
+</a>
+
+<!-- style="background-color: blue;" -->
+<!-- [routerLink]="[index]"  -->

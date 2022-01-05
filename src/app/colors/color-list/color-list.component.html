@@ -1,0 +1,25 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h4>Filter by color name:</h4>
+        <!-- <input type="text" [(ngModel)]='listFilter'> -->
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12">
+        <!-- <button class="btn btn-success" (click)="onNewColor()">New Color</button> -->
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-xs-12">
+        <!-- here the filter is not working because we are binding to employees -->
+        <!-- changed this as was not able to update the list after change in form -->
+        <!-- <app-color-item *ngFor="let employeeEl of filteredEmployees; let i = index" [employee]="employeeEl" [index]="i"></app-color-item> -->
+        <app-color-item *ngFor="let colorEl of colors; let i = index" [color]="colorEl" [index]="i"></app-color-item>
+    </div>
+</div>
+
+<!-- src="{{ employee.imagePath }}" -->
+
+<!-- line 15-col-xs-12 -->
