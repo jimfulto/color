@@ -1,9 +1,13 @@
-<a style="cursor: pointer;" 
-    class="list-group-item clearfix"
-    routerLinkActive="active"
-    [ngStyle]="{'background-color': color.hexValue }">
+<div class="col-md-4">
+    <a style="cursor: pointer;" 
+        class="list-group-item clearfix"
+        routerLinkActive="active"
+        [ngStyle]="{'background-color': color.hexValue }">
     <div class="pull-left">
         <h4 class="list-group-item-heading">{{ color.name }}</h4>
         <h5 class="list-group-item-heading">{{ color.hexValue }}</h5>
     </div>
 </a>
+</div>
+
+

@@ -7,6 +7,7 @@ import { DataStorageService } from '../shared/data-storage.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  collapsed = true;
 
   constructor(private dataStorageService: DataStorageService) { }
 

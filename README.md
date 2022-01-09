@@ -1,6 +1,14 @@
 # Colors
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.12.
+## Angular version
+Angular version 11
+Node JS v14.16.1
+Bootstrap 3.4.1
+
+## Install Node Modules
+
+Run `npm install` in the project folder.
 
 ## Development server
 
