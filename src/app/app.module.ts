@@ -10,6 +10,7 @@ import { ColorListComponent } from './colors/color-list/color-list.component';
 import { ColorItemComponent } from './colors/color-list/color-item/color-item.component';
 import { ColorsComponent } from './colors/colors.component';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CommonModule } from '@angular/common';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
